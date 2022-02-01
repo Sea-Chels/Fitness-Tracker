@@ -25,7 +25,7 @@ app.use(apiRts);
 app.use(htmlRts);
 
 // mongoose connection
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workouts', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
